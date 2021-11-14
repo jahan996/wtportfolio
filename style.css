@@ -1,0 +1,169 @@
+body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+    width:60%;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p{
+	text-align: justify;
+}
+
+#navbar{
+	position: fixed;
+	width: 100%;
+	background: #063647;
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline-block;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+}
+#index{
+	font-size:30px;
+	width: 74%;
+}
+
+#content{
+	font-size:18px;
+	padding-left:15px;
+}
+
+#about{
+	padding-top: 70px;
+}
+
+#profilephoto, #profileinfo{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+#profilephoto{
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+#profileinfo{
+	width: 75%;
+	text-align: justify;
+	padding-left: 30px;
+	padding-top: 27px;
+}
+
+#profilephoto img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#Skills{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center; 
+	background: #052D3D;}
+
+#bar{ 
+	background-color: #ddd; 
+	height: 10px;}
+
+.skills {
+	padding-top: 10px;
+}
+
+.html-css {width: 85%; background-color: #04AA6D;}
+.java {width: 80%; background-color: #2196F3;}
+.csh {width: 77%; background-color: #dbf189;}
+.cpp {width: 73%; background-color: #f44336;}
+.php {width: 67%; background-color: #808080;}
+.js {width: 60%; background-color: #9b3396;}
+
+#Projects{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: #0E282E;
+}
+.projectlists{
+	display: inline-block;
+	text-align: center;
+}
+
+#projectphoto1 img, #projectphoto2 img, #projectphoto3 img{
+	width: 377px;
+	height: 200px;
+	
+}
+
+#projectinfo h3, #projectinfo h4, #projectinfo h5{
+	height: 0px;
+}
+
+#contact{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #09222b;
+}
+
+.feedback-input {
+	color:white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: transparent;
+	border:2px solid #080c25;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #dcdbeb; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	width: 100%;
+	background:#091452;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+  }
+  [type="submit"]:hover { background:#061130; }
